@@ -7,6 +7,7 @@ class Mapeo(Scene):
         myTemplate.add_to_preamble("\\usepackage{mathrsfs}")
 
         grid = NumberPlane((-20, 20), (-10, 10))
+
         # Complex map
         c_grid = ComplexPlane()
         moving_c_grid = c_grid.copy()
