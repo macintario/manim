@@ -19,7 +19,7 @@ class DefaultTemplate(Scene):
 
         equations = [
             MathTex("\\int_{1}^{2} \\left( 3x^2 + 2x - 5 \\right) \\, dx"),
-            MathTex("\\int_{1}^{2} \\left( 3x^2 + 2x - 5 \\right) \\, dx"),
+            MathTex("\\int \\left( 3x^2 + 2x - 5 \\right) \\, dx"),
             MathTex("f(x) = 3x^2 + 2x - 5" ),
             MathTex(r"\int \left( 3x^2 + 2x - 5 \right) \, dx = \int 3x^2 \, dx + \int 2x \, dx - \int 5 \, dx"),
             MathTex(r"1. \displaystyle \int 3x^2 \, dx = 3 \cdot \frac{x^{2+1}}{2+1} + C = x^3 + C"),
